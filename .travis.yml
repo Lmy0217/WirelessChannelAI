@@ -7,5 +7,3 @@ python:
 install:
   - pip3 install -r requirements.txt
   - pip3 install tensorflow==2.0.0b1
-
-script:
