@@ -24,7 +24,7 @@
 
 - Download [dataset](https://developer.huaweicloud.com/competition/competitions/1000013923/circumstances) and extract the zip file in the folder `data` (now, this folder should contain two folder named 'train_set' and 'test_set' respectively)
 
-- Run combine and prepocess code in `data` folder
+- Run combine and prepocess code in the `data` folder
   ```bash
   cd data
   python3 comp.py
@@ -37,17 +37,29 @@
   python3 model.py
   ```
 
-- Trained model will be saved in `model` folder
+- Trained model will be saved in the `model` folder, **will cover the pre-training model**
 
-## Online verification 
+## Pre-trained Model
+- Saved in the `model` folder
+
+## Performance
+- Three quarters of the data set is used as train set and the remaining quarter as test set.
+
+|Model|Offline RMSE|Online RMSE|
+|-|-|-|
+|FC-5|≈ 9.74|9.7588|
+|FC-6|≈ 9.53|9.4514|
+|ResNet-8|≈ 9.43|-|
+
+## Online Verification 
 
 - Upload the `model` folder as the model directory
 
-- Upload the `test_set` folder under the `data` folder as the testset directory
+- Upload the `test_set` folder under the `data` folder as the test set directory
 
 - Create model and deploy batch service in [ModelArts](https://console.huaweicloud.com/modelarts)
 
 - Submit the model to the competition
 
-## 许可证
+## License
 The code is licensed with the [MIT](LICENSE) license.
