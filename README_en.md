@@ -1,7 +1,7 @@
 # Wireless Channel AI
 [![Travis](https://img.shields.io/travis/Lmy0217/WirelessChannelAI.svg?branch=master&label=Travis+CI)](https://www.travis-ci.org/Lmy0217/WirelessChannelAI) [![CircleCI](https://img.shields.io/circleci/project/github/Lmy0217/WirelessChannelAI.svg?branch=master&label=CircleCI)](https://circleci.com/gh/Lmy0217/WirelessChannelAI) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Lmy0217/WirelessChannelAI/pulls) [![简体中文](https://img.shields.io/badge/README-简体中文-blue.svg)](README.md)
 
-* This repo is code of [2019 China Post-Graduate Mathematical Contest in Modeling Question A](https://developer.huaweicloud.com/competition/competitions/1000013923/introduction). **The code will be open source after the competition**.
+* This repo is code of [2019 China Post-Graduate Mathematical Contest in Modeling Question A](https://developer.huaweicloud.com/competition/competitions/1000013923/introduction).
 
 ## Dependency
 - [CUDA](https://developer.nvidia.com/cuda-toolkit) and [cuDNN](https://developer.nvidia.com/cudnn) with GPU

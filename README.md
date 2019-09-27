@@ -1,7 +1,7 @@
 # Wireless Channel AI
 [![Travis](https://img.shields.io/travis/Lmy0217/WirelessChannelAI.svg?branch=master&label=Travis+CI)](https://www.travis-ci.org/Lmy0217/WirelessChannelAI) [![CircleCI](https://img.shields.io/circleci/project/github/Lmy0217/WirelessChannelAI.svg?branch=master&label=CircleCI)](https://circleci.com/gh/Lmy0217/WirelessChannelAI) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Lmy0217/WirelessChannelAI/pulls) [![English](https://img.shields.io/badge/README-English-blue.svg)](README_en.md)
 
-* 本仓库存放 [2019 年中国研究生数学建模竞赛 A 题](https://developer.huaweicloud.com/competition/competitions/1000013923/introduction)代码，**在竞赛结束后开源**。
+* 本仓库存放 [2019 年中国研究生数学建模竞赛 A 题](https://developer.huaweicloud.com/competition/competitions/1000013923/introduction)代码。
 
 ## 依赖
 - 安装 [CUDA](https://developer.nvidia.com/cuda-toolkit) 和 [cuDNN](https://developer.nvidia.com/cudnn) 的 GPU

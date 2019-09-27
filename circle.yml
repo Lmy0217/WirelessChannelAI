@@ -33,7 +33,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip3 install -r requirements.txt > /dev/null
-            pip3 install tensorflow==2.0.0b1
+            pip3 install tensorflow==2.0.0b1 flake8
 
       - save_cache:
           paths:
@@ -49,6 +49,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            flake8 . --count --show-source --statistics
 
       - store_artifacts:
           path: test-reports
